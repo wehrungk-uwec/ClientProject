@@ -1,0 +1,498 @@
+body{
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*Header (Most Pages)*/
+header{
+    background-color: #545454;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 0rem;  
+}
+
+header img{
+    width: 5rem;
+    display: block;
+}
+
+h1{
+    padding: 1rem;
+    color: #ffffff;
+    background-color: #665cab;
+    text-align: center;
+    width: 75%;
+    float: right;
+    margin: 0rem;
+}
+ 
+nav>a{
+    color: #000000;
+    font-size: 13px;
+    background-color: #ececec;
+    text-decoration: none;
+    padding: .5rem .5rem;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+nav>a:hover{
+    background-color: #ff9f51;
+}
+
+/*About Us Page*/
+.about-us p{
+    background-color: #b5afe6;
+    padding: 1rem 1rem;
+    color: #ffffff;
+    text-align: center;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+}
+
+.about-us h2{
+    background-color: #b5afe6;
+    color: #ffffff;
+    padding: 1rem 2rem;
+    text-align: center;
+    max-width: fit-content;
+    margin: auto;
+}
+
+.staff img{
+    max-width: 100%;
+}
+
+.staff{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.staff h3{
+    background-color: #545454;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    max-width: 50%;
+    max-height: 1rem;
+} 
+
+.footer h2{
+    background-color: #b5afe6;
+    color: #ffffff;
+    padding: 1rem 2rem;
+    text-align: center;
+    max-width: fit-content;
+    margin: auto;
+}
+
+.footer p{
+    background-color: #545454;
+    color: white;
+    text-align: center;
+    max-width: 75%;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    font-size: 24px;
+}
+
+/*Services Page*/
+.services section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.services img{
+    width: 75%;
+    height: auto;
+    padding: 1rem ;
+} 
+
+.services h3{
+    background-color: #545454;
+    color: #ffffff;
+    padding: 1rem;
+    text-align: center;
+    max-width: 60%;
+    max-height: 20%;
+}
+
+.service-footer p{
+    background-color: #b5afe6;
+    color:#ffffff;
+    font-size: 24px;
+    width: 60%;
+    margin-bottom: 1rem ;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 1rem;
+} 
+
+/*Large Group Page*/
+.large-group p{
+    background-color: #b5afe6;
+    padding: 1rem 1rem;
+    color: #ffffff;
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+}
+
+.large-group img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding: 2rem;
+}
+
+.large-group a{
+    color: #ffffff;
+    background-color: #ff9f51;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 32px;
+    width: 75%;
+    margin-top: 2rem;
+    border: 2px solid #000000;
+}
+
+.large-group a:hover{
+    background-color: #BF5B31;
+}
+
+/*Promotions Page*/
+.promotions h2{
+    background-color: #545454;
+    color: #ececec;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 32px;
+    padding: 2rem;
+    font-weight: 100;
+}
+
+/*Rewards Page*/
+.rewards p{
+    background-color: #b5afe6;
+    padding: 1rem 1rem;
+    color: #ffffff;
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+    padding: 2rem;
+}
+
+.rewards a{
+    color: #ffffff;
+    background-color: #ff9f51;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 32px;
+    width: 75%;
+    height: 90px;
+    margin-bottom: 2rem;
+    border: 2px solid #000000;
+}
+
+.rewards a:hover{
+    background-color: #BF5B31;
+}
+
+/*Sign-In Page*/
+.sign-header h1{
+    background-color: #665cab;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.signin button{
+    color: #ffffff;
+    background-color: #ff9f51;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 32px;
+    width: 40%;
+    height: 60px;
+    margin-top: 4rem;
+    border: none;
+}
+
+.signin button:hover{
+    background-color: #BF5B31;
+}
+
+form>label{
+    display: block;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+
+input[type=text], input[type=email],input[type=date], input[type=number], input[type=tel],input[type=time]{
+    font-size: 1.25rem;
+    width: 50%;
+    padding: .5rem;
+    border-radius: 2rem;
+    margin-left: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: #D9D9D9;
+    border: none;
+}
+
+/*Create Account Page*/
+.create-account h1{
+    background-color: #665cab;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.create-account button{
+    color: #ffffff;
+    background-color: #ff9f51;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 32px;
+    width: 40%;
+    height: 100px;
+    margin-top: 4rem;
+    border: none;
+}
+
+.create-account button:hover{
+    background-color: #BF5B31;
+}
+
+/*Book Appt Page*/
+.book-appt h2{
+    background-color: #b5afe6;
+    color: white;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 32px;
+    padding: 2rem;
+    font-weight: 100;
+}
+
+.book-appt fieldset{
+    font-size: 1.5rem;
+    margin: 1rem 0 .25rem;
+    border: none;
+}
+
+.book-appt form label{
+    display: inline-block;
+    font-size: 1.5rem;
+    margin: 1rem 0 .25rem;
+    background-color: #545454;
+    color: white;
+    width: 75%;
+    height: 2rem;
+    text-align: center;
+    border-radius: .5rem;
+}
+
+.book-appt a{
+    color: #ffffff;
+    background-color: #ff9f51;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 32px;
+    width: 70%;
+    height: 100px;
+    margin-top: 4rem;
+    border: none;
+}
+
+.book-appt a:hover{
+    background-color: #BF5B31;
+}
+
+/*Date Time Page*/
+.date-time h1{
+    background-color: #665cab;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.date-time a{
+    color: #ffffff;
+    background-color: #ff9f51;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 32px;
+    width: 70%;
+    height: 100px;
+    margin-top: 4rem;
+    border: none;
+}
+
+.date-time a:hover{
+    background-color: #BF5B31;
+}
+
+
+/*Contact Information Page*/
+.contact-information nav>a{
+    color: #ffffff;
+    font-size: 13px;
+    background-color: #545454;
+    text-decoration: none;
+    padding: 1rem 1rem;
+    display: inline-block;
+    justify-content: space-evenly;
+}
+
+.contact-information a:hover{
+    background-color: #ff9f51;
+}
+
+.contact-information p{
+    background-color: #b5afe6;
+    color: #ffffff;
+    padding: 3rem;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 120px ;
+    text-align: center;
+    font-size: 32px;
+}
+
+.contact-information button{
+    color: #ffffff;
+    background-color: #ff9f51;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 32px;
+    width: 70%;
+    height: 100px;
+    margin-top: 4rem;
+    border: none;
+    font-size: 40px;
+}
+
+.contact-information button:hover{
+    background-color: #BF5B31;
+}
+
+/*Contact Page*/
+.contact h2{
+    background-color: #b5afe6;
+    color: white;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 32px;
+    padding: 2rem;
+    font-weight: 100;
+}
+
+.contact p{
+    background-color: #545454;
+    color: #ffffff;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    font-size: 32px;
+}
+
+.social-logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.social-logo img{
+    max-width: 100px;
+}
+
+@media (min-width:1200px){
+h1{
+    margin-right: 4rem;
+}
+
+.staff{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+
+.staff img{
+    width: 50%;
+    
+}
+
+.staff h3{
+    padding: 3rem;
+    font-size: 32px;
+}
+
+.services img{
+    max-width: 50%;
+}
+
+.services section{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+}
